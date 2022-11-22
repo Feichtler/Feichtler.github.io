@@ -1,0 +1,13 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

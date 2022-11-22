@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice12</title>
+    <script src="./script.js" defer></script>
+</head>
+<style>
+    img{
+        width: 5%;
+    }
+</style>
+<body style="margin: 0; padding: 0; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+    <h1 style="text-align: center; background-color: black; color: white; margin: 0; padding: 2%; font-family:'Times New Roman', Times, serif">Würfelbeispiel 12</h1>
+
+
+    <div style="text-align: center; display: flex; background-color: rgb(54, 54, 54); color: white; padding: 3%;">
+<div id="score1" style="width: 45%; font-size: xxx-large">0</div>
+<p style="width: 10%; font-size: larger;">-   Scoreboard   -</p>
+<div id="score2" style="width: 45%; font-size: xxx-large">0</div>
+</div>
+
+<div id="namebox" style="display: flex; text-align: center; cursor: pointer; background-color: rgb(82, 82, 82); padding: 2%; color: white;">
+    <div style="width: 25%;" id="inputfield"><input style="padding: 1.5%;" id="tag" type="text" placeholder="Spieler 1"></div>
+    <div style="width: 25%;" id="inputcolor"><input style="padding: 1.5%;" id="color" type="color"></div>
+    <div id="button" style="font-size: 30px; width: 50%;" onclick="submit()">Spielereinstellung 1 merken</div>
+</div>
+
+   <div style="display: flex; text-align: center; cursor: pointer; background-color: rgb(111, 111, 111); padding: 2%; color: white;">
+    <div id="d1" style="font-size: 30px; width: 50%; border-right: solid 5px white;" onclick="newDicePlayer1()">&#9856 Spieler 1 würfeln</div>
+    <div id="d2" style="font-size: 30px; width: 50%;" onclick="newDicePlayer2()">&#9857 Spieler 2 würfeln</div>
+</div>
+
+<div id="output" style="text-align: center;font-size: xx-large; background-color: rgb(221, 221, 221); padding: 2.4%;"></div>
+
+
+</body>
+</html>
